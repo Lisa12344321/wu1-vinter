@@ -7,7 +7,7 @@
 
 :root {
   --color-bg: rgba(103, 157, 157, 0.587);
-  --color-fg: #d11616;
+  --color-fg: #bd2222;
 
   --font-body: sans-serif;
   --font-header: 'KerakNeraka', sans-serif;
@@ -47,7 +47,7 @@ main {
     
 }
 
-main:hover > h1 {
+h1:hover {
   color: rgb(255, 0, 0);
 }
 
@@ -58,6 +58,9 @@ h1 {
     font-family: var(--font-header);
     letter-spacing: .1em;
 }
+
+
+
 
 p {
     font-size: var(--step-2);
@@ -71,3 +74,36 @@ canvas {
     left: 0;
     z-index: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+
+.wrapper {
+  max-width: 85ch;
+  margin-inline: auto;
+  padding-top: 2rem;
+  padding: 1rem;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+
+}
+
+.image-list > li {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 15rem;
+}
+
+img {
+  max-width: 100%;
+  width:100%
+}
+
