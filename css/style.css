@@ -51,6 +51,10 @@ h1:hover {
   color: rgb(255, 0, 0);
 }
 
+a > p:hover {
+  color: rgb(255, 0, 0);
+}
+
 h1 {
     font-size: var(--step-5);
     line-height: 1;
@@ -81,7 +85,7 @@ a {
 
 
 .wrapper {
-  max-width: 85ch;
+  max-width: 65ch;
   margin-inline: auto;
   padding-top: 2rem;
   padding: 1rem;
@@ -107,3 +111,16 @@ img {
   width:100%
 }
 
+.lucka > img {
+  max-width: 70%;
+  width:100%
+}
+
+.lucka > p {
+  font-size: 2rem;
+}
+
+a > p {
+  font-size: 2rem;
+  
+}
